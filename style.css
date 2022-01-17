@@ -1,0 +1,53 @@
+
+
+:root{
+    --primary--color: #0d0d0d;
+    --secondary--color: #ffffff;
+    --text--spacing: 1.25rem;
+    --padding: 1rem;
+    
+
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.nav-ul{
+display: flex;
+justify-content: end;
+align-content: space-between;
+
+
+
+}
+
+.cell{
+    margin:0 1rem;
+}
+
+.seachbar-div{
+    margin: 1.25rem 0;
+
+
+    
+}
+
+.welcome-page{
+    background: linear-gradient(#833ab4, #fd1d1d, #fcb045 );
+
+}
+.welcome-body {
+    color: var(--secondary--color);
+
+}
