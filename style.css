@@ -93,10 +93,61 @@ align-content: space-between;
     /* line-height: 0.25rem; */
     text-align: center;
     padding-top: 1rem;
+    
 }
 
 label{
     font-size: var(--font-family);
     font: bolder;
+}
 
+.second-body{
+    margin-top: 1rem;
+    padding: 0.75rem;
+    text-align: center;
+}
+.second-body p {
+    margin-top: 1rem;
+    
+
+}
+
+.third-body{
+    background: linear-gradient(#833ab4, #fd1d1d, #fcb045 );
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--bg);
+    padding: 0.75rem;
+}
+
+.third-body h1{
+   height: fit-content;
+}
+
+.btn{
+    padding: 0.20rem
+}
+.btn-black{
+    background-color: #000;
+    color: var(--bg);
+}
+
+.btn-yellow{
+    border-radius: 10px;
+    background-color: var(--wombat-yellow);
+
+}
+
+.btn-orange{
+    background: var(--wombat-red);
+    border-radius: 10px;
+    color: var(--bg);
+    border-color: white;
+}
+.welcome-btn{
+    margin-top: 2.2rem;
+
+}
+.btn{
+    transition: var(--standardCardTransition);
 }
