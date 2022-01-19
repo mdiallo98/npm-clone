@@ -197,16 +197,28 @@ SIGN UP SECTIOn
     /* flex-wrap: nowrap;
     justify-content: center;   */
     flex-direction: column;
-    height: 20rem;
-    width: 15rem;
+    height: 35rem;
+    width: 25rem;
     border: black solid 0.05rem;
-    padding: 1rem;
+    padding: 1.58rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top:4rem ;
+    margin-top:8rem ;
+    font-size: 1.5rem;
 
 }
 
 .NPM-heading{
     font-weight: bolder;
-
+    
 }
+
+.sign-up-box p{
+    font-size: 1.0rem;
+    margin-top: 0.50rem;
+}
+
+.sign-up-box a{
+    font-size: 1.0rem;
+    text-decoration: underline;
+}
+
